@@ -1,0 +1,389 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .world {
+        flex-direction: column;
+        text-align: center;
+    }
+    .block {
+        height: 264px;
+    }
+    .sunny {
+        flex-direction: column;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sunny-plus1 {
+        top: 279px;
+        right: 141px;
+    }
+    .sunny-plus {
+        bottom: 0;
+        left: 142px;
+    }
+    .sunny-circle {
+        top: 81px;
+        left: 154px;
+    }
+    .story {
+        flex-wrap: wrap;
+        width: 89%;
+    }
+}
+@media (max-width: 768px) {
+    .header-nav a {
+        margin: 0 14px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero-title {
+        text-align: center;
+    }
+    .plus {
+        left: 478px;
+    }
+    .hero-title-info select {
+        width: 44%;
+    }
+    .circle2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .world-circle {
+        top: 529px;
+        right: 0;
+    }
+    .block {
+        height: 193px;
+    }
+    .sunny-circle {
+        top: -39px;
+        left: 222px;
+    }
+    .sunny-plus {
+        bottom: 0;
+        left: 32px;
+    }
+    .sunny-plus1 {
+        top: 279px;
+        right: 64px;
+    }
+    .person-info p {
+        width: 294px;
+    }
+    .person-circle1 {
+        top: 41px;
+        right: 693px;
+    }
+    .story {
+        width: 97%;
+    }
+    .story-block {
+        margin: 20px 0;
+    }
+    .footer-info {
+        flex-wrap: wrap;
+        width: 95%;
+    }
+}
+@media (max-width: 576px) {
+    .header-nav a {
+        display: none;
+    }
+    .plus {
+        left: 420px;
+    }
+    .hero img {
+        width: 90%;
+        height: 90%;
+    }
+    .circle1 {
+        left: -56px;
+    }
+    .world img {
+        width: 90%;
+        height: 90%;
+    }
+    .world-plus {
+        left: 479px;
+    }
+    .world-circle {
+        top: 355px;
+    }
+    .block-title h4 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .block-title h4 span {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .block {
+        height: 166px;
+    }
+    .block-title {
+        width: 69px;
+    }
+    .blocks-title h1 {
+        font-size: 30px;
+    }
+    .sunny img  {
+        width: 90%;
+        height: 90%;
+    }
+    .person {
+        flex-direction: column;
+    }
+    .person-nav h1 {
+        text-align: center;
+    }
+    .person-circle1 {
+        top: -240px;
+        right: 426px;
+    }
+    .story-block {
+        width: 45%;
+    }
+}
+@media (max-width: 451px) {
+    .header-left {
+        padding: 8px 30px;
+    }
+    .header-right {
+        padding: 8px 30px;
+    }
+    .plus {
+        left: 382px;
+    }
+    .hero-title h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .world-plus {
+        left: 387px;
+    }
+    .world-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .world-title p {
+        width: 403px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .world-title button {
+        font-size: 15px;
+    }
+    .blocks-title h1 {
+        font-size: 25px;
+    }
+    .blocks-title a {
+        font-size: 15px;
+    }
+    .block-title h4 {
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .block-title h4 span {
+        font-size: 7px;
+        line-height: 0;
+    }
+    .block {
+        height: 132px;
+    }
+    .block-title {
+        width: 55px;
+    }
+    .sunny-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .sunny-title p {
+        width: 336px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .sunny-title button {
+        font-size: 15px;
+    }
+    .person-nav h1 {
+        font-size: 30px;
+    }
+    .person-info p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .person-info h2 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .person-info h2 span {
+        font-size: 15px;
+    }
+    .person-circle1 {
+        right: 356px;
+    }
+    .person-img {
+    }
+    .story-block {
+        width: 51%;
+    }
+}
+@media (max-width: 400px) {
+    .hero-title h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .plus {
+        left: 323px;
+    }
+    .hero-title-info select {
+        width: 43%;
+    }
+    .world-plus {
+        left: 330px;
+    }
+    .world-title h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .world-circle {
+        top: 312px;
+    }
+    .world-title p {
+        width: 354px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .world-title button {
+        font-size: 13px;
+    }
+    .block-title h4 {
+        font-size: 7px;
+    }
+    .block-title h4 span {
+        font-size: 6px;
+    }
+    .block {
+        height: 120px;
+    }
+    .blocks-title h1 {
+        font-size: 22px;
+    }
+    .blocks-title a {
+        font-size: 12px;
+    }
+    .person-img img {
+        width: 85%;
+    }
+    .person-img-block {
+        right: 53px;
+    }
+    .person-plus {
+        right: 345px;
+    }
+    .person-circle {
+        right: 45px;
+    }
+    .person-circle1 {
+        right: 340px;
+    }
+    .story-title a {
+        font-size: 15px;
+    }
+    .story-title h1 {
+        font-size: 30px;
+    }
+    .story-block {
+        width: 62%;
+    }
+    .blocks-circle1 {
+        right: 316px
+    }
+    .blocks-circle2 {
+        right: 183px;
+    }
+    .circle1 {
+        top: 146px;
+        left: 34px;
+    }
+    .footer-nav p {
+        width: 358px;
+    }
+}
+@media (max-width: 376px) {
+    .person-plus {
+        right: 318px;
+    }
+    .person-circle1 {
+        right: 315px;
+    }
+    .footer-nav p {
+        width: 346px;
+    }
+}
+@media (max-width: 320px) {
+    .header-left {
+        font-size: 13px;
+    }
+    .hero-title-info select {
+        width: 42%;
+    }
+    .plus {
+        left: 243px;
+    }
+    .world-plus {
+        left: 244px;
+    }
+    .world-title p {
+        width: 282px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .world-circle {
+        top: 263px;
+    }
+    .sunny-title h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .sunny-title p {
+        width: 260px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .sunny-plus1 {
+        right: 9px;
+    }
+    .person-circle1 {
+        right: 261px;
+        top: -340px;
+    }
+    .person-plus {
+        right: 268px;
+    }
+    .story-title h1 {
+        font-size: 20px;
+    }
+    .story-title a {
+        font-size: 13px;
+    }
+    .story-block h2 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .footer-nav p {
+        width: 217px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
